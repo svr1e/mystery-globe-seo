@@ -1,15 +1,4 @@
-# Clean URL rewrites — serve .html files without the .html extension
-# Cloudflare Pages handles this automatically when "Pretty URLs" is enabled in dashboard
-# This file is a fallback for explicit redirects if needed
+# Cloudflare handles clean URLs (.html extension stripping) natively.
+# Only custom aliases or external redirects belong here.
 
-/haunted-places-in-asia       /haunted-places-in-asia.html     200
-/haunted-places-in-europe     /haunted-places-in-europe.html   200
-/haunted-places-in-north-america /haunted-places-in-north-america.html 200
-/haunted-places               /haunted-places.html             200
-/mysterious-places-in-africa  /mysterious-places-in-africa.html 200
-/mysterious-places-in-asia    /mysterious-places-in-asia.html  200
-/mysterious-places-in-europe  /mysterious-places-in-europe.html 200
-/mysterious-places-in-north-america /mysterious-places-in-north-america.html 200
-/mysterious-places-in-south-america /mysterious-places-in-south-america.html 200
-/mysterious-places            /mysterious-places.html          200
-/Ads.txt                      /ads.txt                         200
+/Ads.txt    /ads.txt    200
